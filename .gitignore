@@ -1,0 +1,35 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+
+# Uploaded documents
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Generated package
+EduStream.zip
+EduStream_Package/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
